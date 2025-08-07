@@ -25,7 +25,6 @@ chatroom/
 ├── db.sqlite3          # SQLite database
 ├── manage.py           # Django entry point
 ├── apitest.html        # Sample HTML test (optional)
-└── term                # Possibly a test or log file
 ```
 
 ## ⚙️ Installation & Setup
