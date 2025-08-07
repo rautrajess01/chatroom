@@ -1,6 +1,3 @@
-# chatroom
-A simple Django-based chatroom web app where users can create, join, and discuss in different rooms and topics.
-
 # 💬 Django Chatroom App
 
 This is a Django-based web application that allows users to create and join chat rooms, interact with others, and manage topics. It’s a simple real-time communication platform built with core Django features.
@@ -27,42 +24,46 @@ chatroom/
 ├── chatroom/           # Project settings and URLs
 ├── db.sqlite3          # SQLite database
 ├── manage.py           # Django entry point
-├── apitest.html        # Sample HTML test (optional)```
+├── apitest.html        # Sample HTML test (optional)
+└── term                # Possibly a test or log file
+```
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
 
-
+```bash
 git clone https://github.com/your-username/chatroom.git
 cd chatroom
 ```
 
 ### 2. Create and activate a virtual environment
 
-
+```bash
 python -m venv env
 source env/bin/activate  # On Windows use: env\Scripts\activate
 ```
 
 ### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
 > ⚠️ If `requirements.txt` is missing, install manually:
-`
+```bash
 pip install django
 ```
 
 ### 4. Run migrations
 
-
+```bash
 python manage.py migrate
 ```
 
 ### 5. Start the development server
 
-
+```bash
 python manage.py runserver
 ```
 
@@ -82,3 +83,7 @@ Then log in at [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 - Designed for educational or small-scale community use.
 - You can customize topics, room styles, and user interaction rules as needed.
+
+## 📃 License
+
+This project is open-source. You can use and modify it freely.
