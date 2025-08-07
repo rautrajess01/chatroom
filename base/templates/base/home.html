@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <main class="layout layout--3">
+        <div class="container">
+            
+            <!-- Column 1: Topics -->
+            {% include 'base/topics_component.html' %}
+
+            <!-- Column 2: Room Feed -->
+            {% include 'base/feed_component.html' %}
+
+            <!-- Column 3: Recent Activity -->
+            {% include 'base/activity_component.html' %}
+            
+        </div>
+    </main>
+{% endblock %}
