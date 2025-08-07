@@ -33,38 +33,36 @@ chatroom/
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/your-username/chatroom.git
 cd chatroom
 ```
 
 ### 2. Create and activate a virtual environment
 
-```bash
+
 python -m venv env
 source env/bin/activate  # On Windows use: env\Scripts\activate
 ```
 
 ### 3. Install dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
 > ⚠️ If `requirements.txt` is missing, install manually:
-```bash
+`
 pip install django
 ```
 
 ### 4. Run migrations
 
-```bash
+
 python manage.py migrate
 ```
 
 ### 5. Start the development server
 
-```bash
+
 python manage.py runserver
 ```
 
