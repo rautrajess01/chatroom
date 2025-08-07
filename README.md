@@ -84,7 +84,3 @@ Then log in at [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 - Designed for educational or small-scale community use.
 - You can customize topics, room styles, and user interaction rules as needed.
-
-## 📃 License
-
-This project is open-source. You can use and modify it freely.
